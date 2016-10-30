@@ -1,0 +1,17 @@
+{
+  "name": "eslint-config-otbs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/outtherenz/eslint-config-otbs",
+    "type": "git"
+  },
+  "license": "UNLICENCED",
+  "peerDependencies": {
+    "eslint": "~3.0.0"
+  },
+  "dependencies": {
+    "eslint-config-nightmare-mode": "^2.3.0",
+    "eslint-plugin-standard": "^2.0.1"
+  }
+}
