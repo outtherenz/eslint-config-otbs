@@ -2,7 +2,7 @@ module.exports = {
   extends: 'nightmare-mode',
 
   parserOptions: {
-    ecmaVersion: 6,
+    ecmaVersion: 7,
     sourceType: 'module'
   },
 
