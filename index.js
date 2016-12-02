@@ -45,6 +45,7 @@ module.exports = {
     'key-spacing': [ 2, { beforeColon: false, afterColon: true, mode: 'minimum' } ],
     'keyword-spacing': [ 2, { before: true, after: true } ],
     'max-depth': 1,
+    'max-params': 0,
     'new-cap': [ 2, { newIsCap: true, capIsNew: false } ],
     'new-parens': 2,
     'newline-after-var': 0,
