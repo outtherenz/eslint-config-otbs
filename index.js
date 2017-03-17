@@ -135,7 +135,7 @@ module.exports = {
     'no-with': 2,
     'object-curly-spacing': 0,
     'one-var': [ 2, { 'initialized': 'never' }],
-    'operator-linebreak': [ 2, 'after' ],
+    'operator-linebreak': 0,
     'prefer-arrow-callback': 0,
     'prefer-reflect': 0,
     'prefer-rest-params': 0,
