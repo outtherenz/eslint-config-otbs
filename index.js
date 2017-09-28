@@ -41,7 +41,7 @@ module.exports = {
     'global-require': 0,
     'guard-for-in': 0,
     'handle-callback-err': [ 2, '^(err|error)$' ],
-    'indent': [ 2, 2, { SwitchCase: 1 } ],
+    'indent': [ 2, 2, { SwitchCase: 1, MemberExpression: 0 } ],
     'key-spacing': [ 2, { beforeColon: false, afterColon: true, mode: 'minimum' } ],
     'keyword-spacing': [ 2, { before: true, after: true } ],
     'max-depth': 1,
