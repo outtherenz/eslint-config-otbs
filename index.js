@@ -7,7 +7,8 @@ module.exports = {
   },
 
   plugins: [
-    'standard'
+    'standard',
+    'mocha'
   ],
 
   globals: {
@@ -160,6 +161,8 @@ module.exports = {
 
     'standard/object-curly-even-spacing': [ 2, 'either' ],
     'standard/array-bracket-even-spacing': [ 2, 'either' ],
-    'standard/computed-property-even-spacing': [ 2, 'even' ]
+    'standard/computed-property-even-spacing': [ 2, 'even' ],
+
+    'mocha/no-exclusive-tests': 2
   }
 };
